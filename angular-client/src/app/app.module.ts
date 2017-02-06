@@ -10,6 +10,9 @@ import {MdButtonModule} from '@angular2-material/button';
 import {MdIconModule} from '@angular2-material/icon';
 import {MdIconRegistry} from '@angular2-material/icon';
 
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { CustomChartModule } from './custom-chart/custom.module';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -20,7 +23,9 @@ import {MdIconRegistry} from '@angular2-material/icon';
     HttpModule,
     MdCardModule,
     MdButtonModule,
-    MdIconModule
+    MdIconModule,
+    NgxChartsModule,
+    CustomChartModule
   ],
   providers: [MdIconRegistry],
   bootstrap: [AppComponent]

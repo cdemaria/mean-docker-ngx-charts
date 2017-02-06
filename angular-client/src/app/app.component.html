@@ -20,11 +20,20 @@
       <button type="button" (click)="addPerson(name.value, age.value)" class="btn btn-primary">Add person</button>
     </form>
   </div>
-  <div class="chart-box">
-    <md-card>
-      <p>test</p>
-    </md-card>
-  </div>
+
+  <md-card>
+    <div class="chart-box">
+      <h3>People</h3>
+      <ngx-charts-bar-vertical
+        [view]="[600,300]"
+        [results]="people"
+        [scheme]="colorScheme"
+        [xAxis]="true"
+        [yAxis]="true"
+        [legend]="true">
+      </ngx-charts-bar-vertical>
+    </div>
+  </md-card>
 
   <div [style.margin-top.px]="10" class="row">
     <h3>People</h3>
