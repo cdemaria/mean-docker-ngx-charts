@@ -14,9 +14,7 @@ This pulls in examples from several sources with the purpose of demonstrating th
   - ngx-charts (Angular 2 compatable D3 charts)
 
 The three microservices have been configured to communicate with each other.
-TODO: Add the bar chart to an MD card.
-TODO: Display data from `/users` endpoint within bar chart.
-TODO: Adding/removing users will be reflected in the bar chart.
+Within the client app, the bar chart is being displayed inside a Material Card.  It's pulling it's data from the `/users` endpoint within the express API.  The express API is saving and retrieving data from mongo (in a separate database microservice.)
 
 ## Usage
 
