@@ -27,18 +27,11 @@ import { UsersService } from './services/users.service';
     UsersChartComponent,
     UserComponent
   ],
-
   providers: [
-      UsersService
+    UsersService
   ],
-
   exports:[
-    UserFormComponent,
-    UserListComponent,
-    UsersChartComponent,
     UserComponent,
-    NgxChartsModule,
-    MdCardModule
   ]
 
 })

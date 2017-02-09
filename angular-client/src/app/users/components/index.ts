@@ -14,6 +14,6 @@ import { EmitterService } from '../../emitter.service';
 })
 export class UserComponent {
     // Event tracking properties
-    private listId = 'COMMENT_COMPONENT_LIST';
-    private editId = 'COMMENT_COMPONENT_EDIT';
+    private listId = 'USER_COMPONENT_LIST';
+    private editId = 'USER_COMPONENT_EDIT';
  }
