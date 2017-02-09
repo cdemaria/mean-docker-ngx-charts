@@ -1,0 +1,13 @@
+<md-card class="chart-box-card">
+  <div class="chart-box">
+    <h3>People</h3>
+    <ngx-charts-bar-vertical
+      [view]="[600,300]"
+      [results]="people"
+      [scheme]="colorScheme"
+      [xAxis]="true"
+      [yAxis]="true"
+      [legend]="true">
+    </ngx-charts-bar-vertical>
+  </div>
+</md-card>
